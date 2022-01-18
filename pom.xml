@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>jcip</groupId>
+    <artifactId>jcip</artifactId>
+    <version>1.0</version>
+    <name>jcip</name>
+    <description>jcip source codes</description>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>jcip-annotations</module>
+        <module>jcip-examples</module>
+    </modules>
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+</project>
